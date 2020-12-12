@@ -21,7 +21,7 @@ fi
 
 Vagrant.configure("2") do |config|
   config.vm.box = "roboxes/rhel8"
-  config.vm.box_version = "1.9.28"
+  config.vm.box_version = "v3.1.12"
   # Disable guest additions check, because at this point the VM 
   # will not be registered with RHEL via subsctiption-manager 
   # and yum install <anything> will not work.
